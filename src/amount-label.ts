@@ -1,12 +1,8 @@
 import { _decorator, Label } from 'cc';
 import { ioc } from 'lite-ts-ioc';
 
-import { LangServiceBase } from './lang-service-base';
-
 const { ccclass } = _decorator;
-
 @ccclass('CcAmountLabel')
-
 
 export class CcAmountLabel extends Label {
     private m_Value: string[];
